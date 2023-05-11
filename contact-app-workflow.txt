@@ -1,0 +1,26 @@
+            Contact Managment App
+          --------------------------
+
+    1. Create angular Project : ng new project-name
+    2. Clean the code
+    3. Run Project : ng s
+    4. Link all 3rd party library : bootstrap, font awesome, google fonts
+    5. Create Components : mg g c component-name
+        - header
+        - footer
+        - all-contacts
+        - add-contacts
+        - view-contacts
+        - edit-contacts
+        - page-not-found
+    6. Delete all spec.ts files from each userdefined components 
+    7. Set up path for each components
+        - all-contacts : path - http://localhost:4200/
+        - add-contacts : path - http://localhost:4200/add-contact 
+        - view-contacts : path - http://localhost:4200/view-contact/id
+        - edit-contacts : path - http://localhost:4200/edit-contact/id
+        - page-not-found : path - any path other than defined routes
+    8. To navigate according to component use router-outlet selector in Appcomponent.html    
+    9. Design components
+    10. Create services to share common logic (api call) between components : ng g s service-folder/service-name 
+    11. Dependency Inject 'HttpClient' Class in service class constructor
